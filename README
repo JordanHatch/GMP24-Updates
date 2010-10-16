@@ -1,0 +1,7 @@
+This is an SQLite database of all the calls logged on Twitter by Greater Manchester Police between 5am on 14th October 2010 and 5am on 15th October 2010.
+
+There are three columns: id, call_no, and description. The ID number is completely irrelevant to the data and just is used as a primary key. This is because the call_no has duplication in some numbers as it appears to be reset from zero before 5am, which is why the first logged call is no. 215.
+
+Hopefully someone could get some useful metrics from this. Try searching '999' or 'garage' to get some interesting stats. I had an idea about building a Rails app to crowdsource categorizing these calls, with a view to show the benefits of transparent data like this.
+
+If you've got any questions, let me know on Twitter @1jh :)
